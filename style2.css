@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+body {
+    width: 1440px;
+    height: 990px;
+    display: flex;
+}
+
+
+.site1 {
+    padding-top: 60px;
+    padding-left: 50px;
+    background: #E2F0FF;
+    width: 710px;
+    height: 990px;
+    /* max-width: max-content;
+    margin: 150px auto; */
+}
+
+.img {
+    background-image: url(./assets/1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 391px;
+    width: 524px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 60px;
+
+}
+
+.contain {
+    margin-left: 20px;
+    width: 500px;
+    height: 255px;
+
+}
+
+.contain h1 {
+    display: flex;
+    font: 600 26px 'Poppins';
+    width: 400px;
+    height: 68px;
+    color: #292731;
+    text-align: center
+}
+
+.contain p {
+    margin-top: 23px;
+    color: #455360;
+    text-align: center;
+    font-style: normal;
+    font: 400 16px 'Poppins';
+    line-height: 170%;
+    width: 400px;
+    height: 68px;
+}
+
+.site2 {
+    margin-left: 100px;
+    width: 730px;
+    height: 990px;
+    padding-top: 60px;
+}
+
+.site2 .imgSmile {
+    background-image: url(./assets/waving-hand.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.site2 h2 {
+    padding-top: 10px;
+    color: #292731;
+    font: 600 30px "Poppins";
+    line-height: normal;
+}
+
+.site2 p {
+    color: #292731;
+    font: 400 16px "Poppins";
+    line-height: 170%;
+}
+
+.site2 .details {
+    margin-top: 60px;
+}
+
+.details p {
+    margin-top: 40px;
+    color: #455360;
+    font: 500 16px "Poppins";
+    line-height: normal;
+}
+
+.details input {
+    background: #E2F0FF;
+    margin-top: 5px;
+    width: 440px;
+    height: 30px;
+    padding: 12px 137px 9px 22px;
+    align-items: center;
+}
+
+.details button {
+    cursor: pointer;
+    margin-top: 40px;
+    display: flex;
+    width: 601px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    background: #4C70FF;
+    color:  #FFF;
+    font:500 20px "Poppins";
+    line-height: normal;
+}
+
+.site2 .stringLink {
+    margin-left: 180px;
+    margin-top: 20px;
+    color: #292731;
+    font: 500 16px "Poppins";
+    line-height: normal;
+}
+
+.link{
+    cursor: pointer;
+    color: #66BCE8;
+    font:500 16px "Poppins";
+    line-height: normal;
+}
